@@ -3,7 +3,7 @@
 
   <groupId>com.home</groupId>
   <artifactId>learn.mvn</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.2-SNAPSHOT</version>
   <modules>
     <module>base</module>
   </modules>
@@ -34,9 +34,9 @@
 
   <scm>
     <url>https://github.com/pgciq/learnMvn</url>
-    <connection>scm:git:git://git@github.com:pgciq/learnMvn.git</connection>
-    <developerConnection>scm:git:git://git@github.com:pgciq/learnMvn.git</developerConnection>
-    <tag>learn.mvn-0.0.3</tag>
+    <connection>scm:git:git@github.com:pgciq/learnMvn.git</connection>
+    <developerConnection>scm:git:git@github.com:pgciq/learnMvn.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 </project>
 
