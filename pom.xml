@@ -57,10 +57,6 @@
           </dependency>
         </dependencies>
         <configuration>
-          <checkModificationExcludes>
-            <checkModificationExclude>pom.xml</checkModificationExclude>
-            <checkModificationExclude>base/pom.xml</checkModificationExclude>
-          </checkModificationExcludes>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
