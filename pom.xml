@@ -4,10 +4,6 @@
   <groupId>com.home</groupId>
   <artifactId>learn.mvn</artifactId>
   <version>0.0.4-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>base</module>
-  </modules>
   <name>learn.mvn</name>
   <url>http://maven.apache.org</url>
 
