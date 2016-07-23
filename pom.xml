@@ -3,7 +3,7 @@
 
   <groupId>com.home</groupId>
   <artifactId>learn.mvn</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <modules>
     <module>base</module>
   </modules>
