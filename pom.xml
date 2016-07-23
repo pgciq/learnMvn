@@ -3,11 +3,7 @@
 
   <groupId>com.home</groupId>
   <artifactId>learn.mvn</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>base</module>
-  </modules>
+  <version>0.0.4</version>
   <name>learn.mvn</name>
   <url>http://maven.apache.org</url>
 
@@ -40,7 +36,7 @@
     <url>https://github.com/pgciq/learnMvn</url>
     <connection>scm:git:git@github.com:pgciq/learnMvn.git</connection>
     <developerConnection>scm:git:git@github.com:pgciq/learnMvn.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v0.0.4</tag>
   </scm>
 
   <build>
