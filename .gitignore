@@ -1,3 +1,8 @@
 
 /learnMvn.iml
 /.idea/
+/target/
+/base/base.iml
+/base/target/
+*.releaseBackup
+release.properties
