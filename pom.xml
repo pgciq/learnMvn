@@ -3,17 +3,16 @@
 
   <groupId>com.home</groupId>
   <artifactId>learn.mvn</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <modules>
     <module>base</module>
   </modules>
-  <packaging>pom</packaging>
-
   <name>learn.mvn</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
   </properties>
 
   <dependencies>
@@ -30,6 +29,10 @@
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+    </repository>
   </distributionManagement>
 
   <scm>
@@ -38,5 +41,21 @@
     <developerConnection>scm:git:git@github.com:pgciq/learnMvn.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.3</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>nexus-releases</serverId>
+          <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+          <skipStaging>true</skipStaging>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
 
